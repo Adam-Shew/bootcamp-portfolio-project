@@ -1,7 +1,41 @@
 * {
-  background-color: rgba(29, 29, 188, 0.732);
+  background-color: lightgray;
 }
 
 body {
-  background-color: red;
+  background-color: black;
+}
+
+header {
+  border: 2px solid red;
+}
+
+button {
+  display: table-cell;
+  float: right;
+  vertical-align: middle;
+}
+
+.aboutMe {
+  display: flex;
+  width: 90%;
+  margin: 1% auto;
+  padding: 10px;
+  background-color: blue;
+}
+
+.portfolio {
+  display: flex;
+  width: 90%;
+  margin: 1% auto;
+  padding: 10px;
+  background-color: green;
+}
+
+.resume {
+  display: flex;
+  width: 90%;
+  margin: 1% auto;
+  padding: 10px;
+  background-color: yellow;
 }
